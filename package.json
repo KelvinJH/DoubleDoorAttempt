@@ -1,0 +1,23 @@
+{
+  "name": "SpamTest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "NodeLinked.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KelvinJH/SpamTest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KelvinJH/SpamTest/issues"
+  },
+  "homepage": "https://github.com/KelvinJH/SpamTest#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

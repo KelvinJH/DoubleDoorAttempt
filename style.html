@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<style>
+#grad1 {
+  height: 780px;
+  background-color: black; 
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); 
+}
+
+</style>
+</head>
+<button type="button1">Add</button>
+<button type="button2">Edit</button>
+<button type="button3">Delete</button>
+<button type="button4">Read</button>
+<input type="text" placeholder="Enter a value">
+<body>
+
+<div id="grad1" style="text-align:center;margin:auto;color:#888888;font-size:40px;font-weight:bold">
+Rainbow Themed
+</div>
+<script>
+    button1.onclick = NodeLinked.add();
+    button2.onclick = NodeLinked.edit();
+    button3.onclick = NodeLinked.delete();
+    button4.onclick = NodeLinked.get();
+</script>
+
+</body>
+</html>
